@@ -1,6 +1,8 @@
 name: CI
 
 on:
+  push:
+    branches: [feature/1]
   workflow_dispatch:
 env:
   IMAGE_NAME: yashnanode-dev
